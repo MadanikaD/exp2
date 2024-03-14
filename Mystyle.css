@@ -1,0 +1,98 @@
+/* Your CSS styles go here */
+
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    margin: 50px;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.container .left {
+    background: #003147;
+    padding: 20px; /* Increased padding */
+    flex: 1;
+    max-width: 200px; /* Reduced width */
+    order: 2; /* Added to reverse order */
+}
+
+.profiletext {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.container .right {
+    padding: 60px 80px; /* Increased padding */
+    flex: 3; /* Adjusted flex ratio */
+    overflow: hidden;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.contactinfo {
+    padding-top: 40px;
+}
+
+.title {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.contactinfo li {
+    list-style: none;
+    position: relative;
+}
+
+.contactinfo ul li span {
+    color: #fff;
+}
+
+.icon {
+    display:flex;
+    color: #03a9f4;
+}
+
+/* Additional styles added */
+
+.link {
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.link:hover {
+    background-color: #ddd;
+}
+
+/* Hide content by default */
+.content {
+    display: none;
+}
+
+/* Show content when corresponding link is targeted */
+.content:target {
+    display: block;
+}
