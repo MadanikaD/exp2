@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 0;/*set as the background-color*/
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
     max-width: 800px;
     margin: 50px;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
-    background: #fff;
+    background: #fff;/*it set the center content space*/
 }
 
 .container .left {
@@ -28,13 +28,13 @@ body {
     display: flex;
     align-items: center;
     margin-left: 0px;
-    padding: 10px;
+    padding: 10px;/*set for the textarea*/
 }
 
 .container .right {
     padding: 60px 80px; /* Increased padding */
     flex: 3; /* Adjusted flex ratio */
-    overflow: hidden;
+    overflow: hidden;/* hidden other content*/
 }
 
 img {
